@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Stockfish for chess-console</title>
+    <meta charset="UTF-8"/>
+    <link rel="icon" type="image/png" href="http://jonnygorden.com/favicon.png" />
+    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="./assets/styles/screen.css"/>
+    <link rel="stylesheet" href="./puzzle.css"/>
+</head>
+<body>
+<div class="container-fluid">
+    <h1>Puzzles</h1>
+    <div class="input-group mb-2 mt-2">
+        <div class="btn-group mr-2 mb-2">
+            <button id="lichessButton" class="btn btn-secondary" type="button">Lichess Daily</button>
+        </div>
+        <div class="btn-group mr-2 mb-2">
+            <button id="chesscomButton" class="btn btn-secondary" type="button">Chess.com Daily</button>
+        </div>
+        <div class="btn-group mr-2 mb-2">
+            <button id="chesscomRandom" class="btn btn-secondary" type="button">Chess.com Random</button>
+        </div>
+        <div class="btn-group mr-2 mb-2">
+            <button id="resetButton" class="btn btn-danger" type="button">Reset Puzzle</button>
+        </div>
+        <div class="btn-group mr-2 mb-2">
+            <button id="testButton" class="btn btn-info" type="button">Test</button>
+        </div>
+    </div>
+    <div id="console-container" class="mb-3"></div>
+    
+    <form>
+        <div class="input-group mb-4">
+            <label for="fenInput" class="sr-only">FEN</label>
+            <div class="input-group-prepend">
+                <button id="fenButton" class="btn btn-outline-primary" type="button">Init with FEN</button>
+            </div>
+            <input id="fenInput" class="form-control" placeholder="FEN"
+                   value="r6k/pp2r2p/4Rp1Q/3p4/8/1N1P2R1/PqP2bPP/7K b - - 0 24"/>
+        </div>
+    </form>
+    
+    <p>
+        
+        
+    </p>
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+<script type="module" src="./puzzle.js"></script>
+</body>
+</html>

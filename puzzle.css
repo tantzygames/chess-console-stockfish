@@ -1,0 +1,33 @@
+/* .body {
+    background-color: #505055;
+}
+
+.container-fluid {
+    background-color: #505055;
+} */
+
+.cm-chessboard.green.border-type-frame .board .border {
+    fill: transparent;
+  }
+
+.iconWrong {
+    padding-right: .025em;
+    color: var(--red); 
+  }
+  
+  .iconCorrect {
+    padding-right: .025em;
+    color: var(--teal);
+  }
+  
+  .solution {
+    width: 100%;
+  }
+  
+  .sol-line {
+    width: 100%;
+  }
+  
+  .btn-icon {
+      width: 46px;
+  }
