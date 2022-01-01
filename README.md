@@ -1,4 +1,9 @@
-# chess-console-stockfish
+# Chess Puzzle Tester
+
+Testing API's and gameplay/presentation for chess puzzles.
+
+Original readme:
+## chess-console-stockfish
 
 A Stockfish engine player for [chess-console](https://github.com/shaack/chess-console).
 This is a full functional chess computer written in vanilla ES6.
