@@ -2,6 +2,8 @@
 
 Testing API's and gameplay/presentation for chess puzzles.
 
+[Try it here](https://jonnygorden.com/chess/)
+
 Original readme:
 ## chess-console-stockfish
 
