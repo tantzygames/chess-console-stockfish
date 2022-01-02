@@ -22,6 +22,19 @@ export class ChessPuzzler extends ChessConsole {
         for (let m of solution) {
             this.moves.push(m);
         }
+        if (!this.resetAdded) {
+            this.$btnReset = $(`<button type="button" title="Reset" class="btn btn-icon btn-light reset"><i class="fas fa-sync-alt" aria-hidden="true"></i></button>`)
+            this.componentContainers.controlButtons.appendChild(this.$btnReset[0]);
+
+            this.$btnReset.click(() => {
+                this.resetSolution();
+                this.initGame({
+                    playerColor: this.props.playerColor,
+                    pgn: this.props.pgn
+                });
+            })
+            this.resetAdded = true;
+        }
         if (this.sol === undefined) {
             this.sol = document.createElement("div");
             this.sol.className = "solution";
@@ -29,6 +42,7 @@ export class ChessPuzzler extends ChessConsole {
         } else {
             this.clearSolutionRows();
         }
+        
         
         
     }

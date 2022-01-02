@@ -6,6 +6,42 @@
     background-color: #505055;
 } */
 
+.excerpt {
+  font-family: Tahoma, Arial, Helvetica, sans-serif;
+  color: #404040;
+  margin: 1em auto 1.5em;
+  width: 100%;
+  max-width: 1080px;
+  /* text-align: center; */
+}
+.excerpt-content {
+  justify-items: center;
+  padding: 0.5em 0;  
+}
+.excerpt-title {
+  text-align: center;
+}
+
+.btn {
+  font-family: inherit;
+}
+.btn-icon {
+  min-height: 36px;
+}
+.btn-puzzle {
+	border-radius: 0.25em;
+  font-family: inherit;
+  font-weight: 400;
+  box-shadow: none;
+	/* box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), inset 0 15px 17px rgba(255, 255, 255, 0.5), inset 0 -5px 12px rgba(0, 0, 0, 0.05), 2px 2px 4px 0px rgba(0, 0, 0, 0.4); */
+	/* color: rgba(64, 0, 64, .8); */
+	font-size: 1em;
+	padding: .4em .6em;
+	text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.15);
+}
+.btn-puzzle:hover {
+  box-shadow: none;
+}
 .cm-chessboard.green.border-type-frame .board .border {
     fill: transparent;
   }

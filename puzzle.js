@@ -1,4 +1,4 @@
-import {ChessConsole} from "./lib/chess-console/ChessConsole.js"
+//import {ChessConsole} from "./lib/chess-console/ChessConsole.js"
 import {ChessPuzzler} from "./src/ChessConsolePuzzler.js"
 import {LocalPlayer} from "./lib/chess-console/players/LocalPlayer.js"
 import {Board} from "./lib/chess-console/components/Board/Board.js"
@@ -228,17 +228,17 @@ document.getElementById("chesscomRandom").addEventListener("click", () => {
     });
 })
 
-document.getElementById("resetButton").addEventListener("click", () => {
+// document.getElementById("resetButton").addEventListener("click", () => {
     
-    if (pgn === "") {
-        return;
-    }
-    chessConsole.resetSolution();
-    chessConsole.initGame({
-        playerColor: col,
-        pgn: pgn
-    })  
-})
+//     if (pgn === "") {
+//         return;
+//     }
+//     chessConsole.resetSolution();
+//     chessConsole.initGame({
+//         playerColor: col,
+//         pgn: pgn
+//     })  
+// })
 
 document.getElementById("testButton").addEventListener("click", () => {
     
