@@ -22,11 +22,44 @@
   text-align: center;
 }
 
-.btn {
+input,
+button {
   font-family: inherit;
+  min-height: 36px;
 }
+.input-group {
+  font-size: 1em;
+  min-height: 36px;
+}
+/* .btn {
+  font-family: inherit;
+} */
 .btn-icon {
   min-height: 36px;
+}
+.form-control {
+  font-size: 1em;
+}
+.btn-fen {
+  border: 1px solid lightseagreen;
+  border-top-left-radius: 0.25em !important;
+  border-bottom-left-radius: 0.25em !important;
+  font-family: inherit;
+  font-weight: 400;
+  box-shadow: none;
+	font-size: 1em;
+  color: rgb(34, 138, 133);
+}
+.btn-fen:hover {
+  border: 1px solid lightseagreen;
+  border-top-left-radius: 0.25em;
+  border-bottom-left-radius: 0.25em;
+  font-family: inherit;
+  font-weight: 400;
+  box-shadow: none;
+  font-size: 1em;
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.1);
+  background-color: lightseagreen;
 }
 .btn-puzzle {
 	border-radius: 0.25em;
@@ -37,7 +70,7 @@
 	/* color: rgba(64, 0, 64, .8); */
 	font-size: 1em;
 	padding: .4em .6em;
-	text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.15);
+	text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.1);
 }
 .btn-puzzle:hover {
   box-shadow: none;
